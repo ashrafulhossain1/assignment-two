@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* hero section start */
+.hero-section {
+    margin: 0 auto;
+    padding-top: 57px;
+}
+
+.navbar {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid yellowgreen;
+    padding: 4px;
+}
+
+.nav-band {
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+
+.nav-items {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    padding: 4px;
+    border-radius: 39px;
+}
+
+.btn-primary {
+    background: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 46px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav-item-last {
+    margin-right: 20px;
+    margin-left: 20PX;
+}
+
+.nav-icon-for-mobile {
+    display: none;
+}
+
+/* banner-section start */
+.banner-section {
+    border: 1px solid goldenrod;
+    display: flex;
+    max-width: 1060px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.banner-content {
+    width: 50%;
+    
+    border: 1px solid red;
+    /* background-color: aqua; */
+}
+.banner-content-wrapper{
+    max-width: 520px;
+}
+.banner-content .title{
+    font-size: 78px;
+    font-weight: 900;
+}
+
+.banner-content .description{
+    margin: 28px 0;
+}
+.banner-btn{
+    display: flex;
+    gap: 14px;
+}
+.banner-btn .btn-primary{
+    padding: 16px 40px;
+}
+#shape {
+    font-family: 'Miama', sans-serif;
+    line-height: 1px;
+    font-size: 78px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.banner-image {
+    width: 50%;
+    /* background-color: green; */
+    border: 1px solid red;
+}
+.banner-image img{
+    width: 350px;
+    height: 580px;
+}

@@ -1,0 +1,13 @@
+@media screen  and (max-width:576px) {
+    /* nav start */
+    .hero-section{
+        padding-top: 52px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .nav-icon-for-mobile{
+        display: block;
+    }
+    /* nav end */
+}
