@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     padding: 4px;
 }
 
@@ -72,22 +72,24 @@ body {
 
 /* banner-section start */
 .banner-section {
-    border: 1px solid goldenrod;
+    /* border: 5px solid white; */
     display: flex;
     max-width: 1060px;
     align-items: center;
     margin: 0 auto;
     margin-top: 32px;
+    justify-content: center;
 }
 
 .banner-content {
     width: 50%;
     
-    border: 1px solid red;
+    /* border: 5px solid skyblue; */
     /* background-color: aqua; */
 }
 .banner-content-wrapper{
     max-width: 520px;
+    /* border: 1px solid blueviolet; */
 }
 .banner-content .title{
     font-size: 78px;
@@ -104,6 +106,10 @@ body {
 .banner-btn .btn-primary{
     padding: 16px 40px;
 }
+.banner-btn .btn-primary:last-child{
+    background-color: transparent;
+    border: 1px solid white;
+}
 #shape {
     font-family: 'Miama', sans-serif;
     line-height: 1px;
@@ -114,10 +120,14 @@ body {
 
 .banner-image {
     width: 50%;
-    /* background-color: green; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .banner-image img{
+    /* border: 1px solid yellowgreen; */
     width: 350px;
     height: 580px;
+    /* margin-left: 70px; */
 }

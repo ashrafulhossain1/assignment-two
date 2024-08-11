@@ -1,13 +1,56 @@
-@media screen  and (max-width:576px) {
+@media screen and (max-width:576px) {
+
     /* nav start */
-    .hero-section{
+    .hero-section {
         padding-top: 52px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    .nav-items{
+
+    .nav-items {
         display: none;
     }
-    .nav-icon-for-mobile{
+
+    .nav-icon-for-mobile {
         display: block;
     }
+
     /* nav end */
+    /* banner start */
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content .title {
+        font-size: 36px;
+        width: 285px;
+    }
+
+    .banner-content .description {
+        width: 70%;
+        width: 285px;
+    }
+
+    #shape {
+        font-size: 36px;
+    }
+
+    .banner-btn .btn-primary {
+        padding: 16px 20px;
+    }
+
+    .banner-image {
+        width: 100%;
+
+    }
+
+    .banner-image img {
+        margin: 0 auto;
+    }
+
+
 }
