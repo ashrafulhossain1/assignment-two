@@ -14,11 +14,12 @@ body {
     box-sizing: border-box;
 }
 
-.title{
+.title {
     font-weight: 900;
     color: white;
 }
-.description{
+
+.description {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -148,12 +149,13 @@ body {
     height: 580px;
     margin-left: 145px;
 }
+
 /* badge */
 .badge-one {
     padding: 20px 23px;
     position: absolute;
     top: 71%;
-    left:16%;
+    left: 16%;
 
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -164,7 +166,8 @@ body {
     align-items: center;
     gap: 12px;
 }
-.badge-one div{
+
+.badge-one div {
     text-align: left;
 }
 
@@ -192,9 +195,60 @@ body {
     /* color: white;
     font-weight: 900; */
 }
-.badge-circle{
+
+.badge-circle {
     width: 20px;
     height: 20px;
     background-color: tomato;
     border-radius: 50%;
+}
+
+/* hero section end */
+
+/* run extra mile start */
+.run-extra-container {
+    max-width: 1060px;
+    margin: 100px auto;
+    border-radius: 18px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px 30px 30px 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.run-extra-container div {
+    /* border: 2px solid green; */
+    /* background-color: red; */
+}
+
+.run-content {
+    width: calc(50% - 75px);
+}
+.run-content .title{
+    font-size: 48px;
+}
+.run-content .description{
+    font-size: 14px;
+    margin-top: 14px;
+}
+.run-content .btn-primary{
+    padding: 16px 80px;
+    border-radius: 42px;
+    margin-top: 50px;
+}
+
+.run-image {
+    width: calc(50% - 75px);
+    display: flex;
+    justify-content: end;
+}
+
+.run-image img {
+    width: 366px;
+    height: 312px;
+    object-fit: cover;
+    border-radius: 18px;
+
 }

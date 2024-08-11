@@ -27,11 +27,11 @@
 
     .banner-content .title {
         font-size: 36px;
-        width: 285px;
+        width: 290px;
     }
 
     .banner-content .description {
-        width: 70%;
+        width: 80%;
         width: 285px;
     }
 
@@ -40,8 +40,7 @@
     }
 
     .banner-btn .btn-primary {
-        padding: 16px 20px;
-        font-size: 14px;
+        padding: 16px 16px;
     }
 
     .banner-image {
@@ -52,7 +51,7 @@
     .banner-image img {
         margin-left: 0;
     }
-
+/* badge start */
     .badge-one {
         height: 72px;
         width: 155px;
@@ -64,10 +63,9 @@
         width: 145px;
         height: 74px;
         top: 10%;
-        right: 7%;
+        right: -2%;
 
     }
-
     .badge-one .title {
         font-size: 18px;
     }
@@ -83,5 +81,33 @@
     .badge-two .description {
         font-size: 9px;
     }
+    /* badge end */
+    /* run extra mile start */
+    .third-section{
+        padding: 0 20px;
+    }
+    .run-extra-container {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+    .run-content{
+        width: 100%;
+    }
+    /* btn div below */
+    .run-content div{
+        display: flex;
+        justify-content: center;
+    }
+     /* btn div above */
+   
+    .run-image{
+        width: 100%;
+        justify-content: center;
+    }
+    .run-image img {
+        width: 287px;
+        height: 170px;
+    } 
 
 }
