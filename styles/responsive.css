@@ -41,16 +41,47 @@
 
     .banner-btn .btn-primary {
         padding: 16px 20px;
+        font-size: 14px;
     }
 
     .banner-image {
+        margin-top: 20px;
         width: 100%;
 
     }
-
     .banner-image img {
-        margin: 0 auto;
+        margin-left: 0;
     }
 
+    .badge-one {
+        height: 72px;
+        width: 155px;
+        top: 47%;
+        left: 13%;
+    }
+
+    .badge-two {
+        width: 145px;
+        height: 74px;
+        top: 10%;
+        right: 7%;
+
+    }
+
+    .badge-one .title {
+        font-size: 18px;
+    }
+
+    .badge-two .title {
+        font-size: 18px;
+    }
+
+    .badge-one .description {
+        font-size: 12px;
+    }
+
+    .badge-two .description {
+        font-size: 9px;
+    }
 
 }

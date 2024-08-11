@@ -14,6 +14,15 @@ body {
     box-sizing: border-box;
 }
 
+.title{
+    font-weight: 900;
+    color: white;
+}
+.description{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 
 /* hero section start */
 .hero-section {
@@ -83,33 +92,39 @@ body {
 
 .banner-content {
     width: 50%;
-    
+
     /* border: 5px solid skyblue; */
     /* background-color: aqua; */
 }
-.banner-content-wrapper{
+
+.banner-content-wrapper {
     max-width: 520px;
     /* border: 1px solid blueviolet; */
 }
-.banner-content .title{
+
+.banner-content .title {
     font-size: 78px;
     font-weight: 900;
 }
 
-.banner-content .description{
+.banner-content .description {
     margin: 28px 0;
 }
-.banner-btn{
+
+.banner-btn {
     display: flex;
     gap: 14px;
 }
-.banner-btn .btn-primary{
+
+.banner-btn .btn-primary {
     padding: 16px 40px;
 }
-.banner-btn .btn-primary:last-child{
+
+.banner-btn .btn-primary:last-child {
     background-color: transparent;
     border: 1px solid white;
 }
+
 #shape {
     font-family: 'Miama', sans-serif;
     line-height: 1px;
@@ -124,10 +139,62 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
-.banner-image img{
+
+.banner-image img {
     /* border: 1px solid yellowgreen; */
     width: 350px;
     height: 580px;
-    /* margin-left: 70px; */
+    margin-left: 145px;
+}
+/* badge */
+.badge-one {
+    padding: 20px 23px;
+    position: absolute;
+    top: 71%;
+    left:16%;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.badge-one div{
+    text-align: left;
+}
+
+.badge-two {
+    padding: 14px 30px;
+    position: absolute;
+    top: 20%;
+    right: -5%;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+.badge-one .title {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+}
+
+.badge-two .title {
+    font-size: 40px;
+    /* color: white;
+    font-weight: 900; */
+}
+.badge-circle{
+    width: 20px;
+    height: 20px;
+    background-color: tomato;
+    border-radius: 50%;
 }
