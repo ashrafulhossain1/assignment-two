@@ -156,9 +156,8 @@
     width: 100%;
 }
 .bmi-input-container input , select{
-    padding: 8px 16px;
+    padding: 8px 10px;
     font-size: 10px;
-    height: 48px;
 }
 
 }
