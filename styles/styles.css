@@ -14,9 +14,15 @@ body {
     box-sizing: border-box;
 }
 
+
 .title {
     font-weight: 900;
     color: white;
+}
+
+.sub-title {
+    font-weight: 600;
+    color: rgb(255, 255, 255);
 }
 
 .description {
@@ -25,8 +31,11 @@ body {
 }
 
 
+
 /* hero section start */
 .hero-section {
+    border: 2px solid green;
+    /* width: 1440px; */
     margin: 0 auto;
     padding-top: 57px;
 }
@@ -192,8 +201,7 @@ body {
 
 .badge-two .title {
     font-size: 40px;
-    /* color: white;
-    font-weight: 900; */
+
 }
 
 .badge-circle {
@@ -205,8 +213,66 @@ body {
 
 /* hero section end */
 
+/* second- habit section start ***************/
+.change-your-habit {
+    border: 2px solid green;
+    max-width: 1044px;
+    margin: 100px auto auto;
+}
+
+.habit-content {
+    border: 2px solid yellow;
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.habit-content .title {
+    font-size: 48px;
+    margin-bottom: .90rem;
+}
+
+.habit-cards {
+    border: 5px seagreen solid;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.habit-cards .habit-card {
+    width: 22%;
+    border: 1px solid red;
+
+}
+
+
+.habit-cards img {
+    width: 80%;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.43);
+}
+
+.habit-cards .sub-title {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+
+.habit-cards .description {
+    font-size: 14px;
+}
+
+/* second- habit section end ***************/
+
+
+/* third section */
+.third-section {}
+
 /* run extra mile start */
 .run-extra-container {
+    border: 2px solid green;
     max-width: 1060px;
     margin: 100px auto;
     border-radius: 18px;
@@ -218,22 +284,20 @@ body {
     justify-content: space-between;
 }
 
-.run-extra-container div {
-    /* border: 2px solid green; */
-    /* background-color: red; */
-}
-
 .run-content {
     width: calc(50% - 75px);
 }
-.run-content .title{
+
+.run-content .title {
     font-size: 48px;
 }
-.run-content .description{
+
+.run-content .description {
     font-size: 14px;
     margin-top: 14px;
 }
-.run-content .btn-primary{
+
+.run-content .btn-primary {
     padding: 16px 80px;
     border-radius: 42px;
     margin-top: 50px;
@@ -246,9 +310,109 @@ body {
 }
 
 .run-image img {
-    width: 366px;
-    height: 312px;
+    width: 100%;
     object-fit: cover;
     border-radius: 18px;
+}
 
+/* BMI-section start */
+.bmi-section {
+    margin-top: 78px;
+    /* border: 2px solid green; */
+}
+
+.bmi-content {
+    max-width: 671px;
+    margin: 0 auto;
+}
+
+.bmi-content .title {
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+
+.bmi-content .description {
+    font-size: 14px;
+}
+
+.bmi-wrapper {
+    margin-top: 70px;
+    background: rgb(34, 34, 34);
+    padding: 50px 0;
+}
+
+.bmi-container {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bmi-chart {
+    /* border: 2px solid red; */
+    width: 45%;
+}
+
+.bmi-chart .title {
+    font-size: 28px;
+    margin-bottom: 52px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 13px 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-calculator {
+    border: 2px solid green;
+    width: 55%;
+}
+
+.bmi-calculator .title {
+    font-size: 28px;
+}
+
+.bmi-calculator .description {
+    font-size: 14px;
+    margin: 14px 0 34px;
+}
+
+.bmi-input-container {
+    border: 4px solid yellow;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    margin-bottom: 34px;
+}
+
+.bmi-input-container input , select{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    /* font-size: 10px; */
+}
+.bmi-input-container select{
+    color: rgb(128, 128, 128);
+}
+#activity{
+grid-column: span 2;
+}
+.bmi-calculator .btn-primary{
+    padding: 16px 50px;
+    font-size: 18px;
+    font-weight: 600;
 }
