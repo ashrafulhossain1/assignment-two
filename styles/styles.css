@@ -12,6 +12,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red;  */
+   
+}
+body{
+    /* border: 1px solid greenyellow;  */
+
 }
 
 
@@ -27,6 +33,7 @@ body {
 
 .description {
     font-weight: 400;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -54,6 +61,7 @@ body {
     font-size: 36px;
     font-weight: 800;
     color: rgb(230, 83, 60);
+    font-style: italic;
 }
 
 .nav-items {
@@ -215,13 +223,13 @@ body {
 
 /* second- habit section start ***************/
 .change-your-habit {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     max-width: 1044px;
     margin: 100px auto auto;
 }
 
 .habit-content {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     max-width: 670px;
     margin: 0 auto;
     text-align: center;
@@ -234,7 +242,7 @@ body {
 }
 
 .habit-cards {
-    border: 5px seagreen solid;
+    /* border: 5px seagreen solid; */
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -392,27 +400,151 @@ td {
 .bmi-input-container {
     /* border: 4px solid yellow; */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
     margin-bottom: 34px;
 }
 
-.bmi-input-container input , select{
+.bmi-input-container input,
+select {
     padding: 12px 20px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     color: rgba(255, 255, 255, 0.6);
 }
-.bmi-input-container select{
+
+.bmi-input-container select {
     color: rgb(128, 128, 128);
 }
-#activity{
-grid-column: span 2;
+
+#activity {
+    grid-column: span 2;
 }
-.bmi-calculator .btn-primary{
+
+.bmi-calculator .btn-primary {
     padding: 16px 50px;
     font-size: 18px;
     font-weight: 600;
 }
+
 /* bmi end */
+/* Meet start */
+.meet-our-team {
+    margin-top: 100px;
+}
+
+.meet-content {
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.meet-content .title {
+    font-size: 58px;
+    margin-bottom: 14px;
+}
+
+.meet-images-container {
+    margin-top: 88px;
+    max-width: 1060px;
+    margin: 88px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.meet-image {
+    /* border: 1px solid aquamarine; */
+    position: relative;
+    height: 300px;
+}
+
+.meet-image img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.image-float-text {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.image-float-text .title, .description{
+    text-shadow: 2px 2px 4px #000000;
+}
+/* Meet end */
+
+/* footer start */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-section{
+    border: 2px solid red;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 65px 0 20px;
+    /* height: 500px; */
+}
+.footer-container{
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-left{
+    /* border: 1px solid red; */
+    max-width: 445px;
+    
+}
+/* left center right  */
+.footer-right{
+    list-style: none;
+}
+
+.footer-center{
+    /* border: 1px solid red; */
+    max-width: 174px;
+
+}
+.footer-right{
+    /* border: 1px solid red; */
+    max-width: 174px;
+    
+}
+/* left right center */
+
+.footer-center  li, .footer-right li{
+    list-style: none;
+}
+.footer-center a, .footer-right a{
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.408);
+    font-size: 23px;
+}
+.footer-container h3{
+    margin-bottom: 40px;
+}
+.footer-container ul{
+    margin-bottom: 80px;
+}
+.footer-container ul li{
+    margin-bottom: 10px;
+}
+hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-section .avenger-end-game{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
