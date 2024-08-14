@@ -105,7 +105,7 @@
 .habit-cards .habit-card{
     width: 70%;
     justify-content: center;
-    border: 1px solid  red;
+    /* border: 1px solid  red; */
 
 }
     
@@ -157,7 +157,9 @@
 }
 .bmi-input-container input , select{
     padding: 8px 10px;
-    font-size: 10px;
+    font-size: 16px;
+    min-width: 130px;
+    height: 47px;
 }
 
 }

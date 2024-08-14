@@ -34,7 +34,7 @@ body {
 
 /* hero section start */
 .hero-section {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* width: 1440px; */
     margin: 0 auto;
     padding-top: 57px;
@@ -243,7 +243,7 @@ body {
 
 .habit-cards .habit-card {
     width: 22%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -272,7 +272,7 @@ body {
 
 /* run extra mile start */
 .run-extra-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     max-width: 1060px;
     margin: 100px auto;
     border-radius: 18px;
@@ -376,7 +376,7 @@ td {
 }
 
 .bmi-calculator {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 55%;
 }
 
@@ -390,7 +390,7 @@ td {
 }
 
 .bmi-input-container {
-    border: 4px solid yellow;
+    /* border: 4px solid yellow; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 12px;
